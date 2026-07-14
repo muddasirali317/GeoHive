@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" fill="none">
+  <defs>
+    <linearGradient id="g" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00e5a8"/>
+      <stop offset="0.55" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="in" x1="22" y1="18" x2="42" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="t" x1="80" y1="20" x2="200" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00e5a8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mark -->
+  <g transform="translate(4,4)">
+    <path d="M32 6 L54 18.5 V41.5 L32 54 L10 41.5 V18.5 Z" stroke="url(#g)" stroke-width="2.4" stroke-linejoin="round" fill="rgba(0,229,168,0.06)"/>
+    <path d="M32 16 L44 23 V37 L32 44 L20 37 V23 Z" stroke="url(#in)" stroke-width="1.6" stroke-linejoin="round" fill="rgba(0,229,168,0.12)"/>
+    <path d="M26 28 L32 24.5 L38 28 V35 L32 38.5 L26 35 Z" fill="url(#g)" opacity="0.95"/>
+    <circle cx="32" cy="31.5" r="3.2" fill="#041016"/>
+    <circle cx="32" cy="31.5" r="1.8" fill="#f0fdf9"/>
+    <path d="M18 32 Q32 22 46 32" stroke="url(#g)" stroke-width="1" opacity="0.35" fill="none"/>
+    <path d="M18 32 Q32 42 46 32" stroke="url(#g)" stroke-width="1" opacity="0.35" fill="none"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="78" y="46" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="-0.5">
+    <tspan fill="#e8eef7">Geo</tspan><tspan fill="url(#t)">Hive</tspan>
+  </text>
+</svg>
